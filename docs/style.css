@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #ea66af, #d0c8d8);
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.question {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #9a7eff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff4e8a;
+}
