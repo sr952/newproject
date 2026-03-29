@@ -27,7 +27,7 @@ const Score = mongoose.model("Score", ScoreSchema);
 
 // Routes
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/index.html"));
+  res.send("Backend running 🚀");
 });
 
 app.post("/save-score", async (req, res) => {
